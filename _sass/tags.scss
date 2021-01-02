@@ -1,0 +1,7 @@
+.post-tags > .tag {
+  color: #828282;
+  font-size: 0.75em;
+  &:before {
+    content: "#"
+  }
+}
