@@ -1,4 +1,11 @@
 <figure>
-  <img src="{{ include.url }}" alt="{{ include.description }}">
-  <figcaption>{{ include.description }}</figcaption>
+  <img src="/{{ include.url }}" alt="{{ include.description }}">
+  <figcaption>
+    <i>{{ include.description }}</i>
+    <br>
+    {{ include.url | exif: 'exif.focal_length.to_f.round'}}mm,
+    {{ include.url | exif: 'exposure_time.to_s'}}s,
+    ƒ/{{ include.url | exif: 'f_number.to_f'}},
+    ISO {{ include.url | exif: 'exif.iso_speed_ratings'}}
+  </figcaption>
 </figure>

@@ -30,6 +30,7 @@ github_username: kd35a
 # Build settings
 theme: minima
 plugins:
+  - jekyll-exif-data
   - jekyll-feed
 
 # Exclude from processing.
