@@ -4,6 +4,11 @@ title: "New Year's Day"
 tags: ["knipa", "knölsvan", "kråka", "nötväcka", "ormvråk", "pilfink", "sothöna", "storskrake", "talgoxe", "gräsand", "gråtrut"]
 ---
 # Successful photo listings
+Many of these photos are of borderline quality. Good enough to identify the
+species, but with too much noise (damn you Swedish winter darkness), bad angles,
+bad light direction or motion blur (again, damn you Swedish winter darkness).
+There's room for improvement. The Mute swan takes home the price as best photo
+of the day.
 
 {% include image.html url="/assets/img/Knipa.jpg" description="Common goldeneye - 500mm, 1/100s, ƒ/5.6, ISO 1100" %}
 
