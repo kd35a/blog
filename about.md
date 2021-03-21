@@ -3,4 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
-To be filled out...
+My name is Fredrik Strandin and this blog was created mainly as a diary to
+document my photo bird listing. More kinds of post will probably emerge with
+time.
