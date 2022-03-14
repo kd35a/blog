@@ -3,9 +3,11 @@ frontend:
   phases:
     preBuild:
       commands:
+        - rvm use $VERSION_RUBY_2_6
         - bundle install
     build:
       commands:
+        - rvm use $VERSION_RUBY_2_6
         - bundle exec jekyll b
   artifacts:
     baseDirectory: _site
