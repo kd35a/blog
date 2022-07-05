@@ -1,5 +1,4 @@
 ---
-layout: postx
 title: "New Year's Day"
 tags: ["knipa", "knölsvan", "kråka", "nötväcka", "ormvråk", "pilfink", "sothöna", "storskrake", "talgoxe", "gräsand", "gråtrut"]
 ---

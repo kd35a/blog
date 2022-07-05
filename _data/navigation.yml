@@ -1,0 +1,7 @@
+main:
+  - title: "Birding"
+    url: /category/birding/
+  - title: "Astro"
+    url: /category/astro/
+  - title: "About"
+    url: /about/

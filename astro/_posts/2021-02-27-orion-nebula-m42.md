@@ -1,5 +1,4 @@
 ---
-layout: postx
 title: "Orion Nebula"
 tags: ["orion nebula", "m42"]
 ---

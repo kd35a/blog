@@ -18,17 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Fredriks Blogg
+title: Fredriks Blog
 email: fredrik+blog@strandin.name
 description: >- # this means to ignore newlines until "baseurl:"
-  Min enkla blogg
+  A photo-birding journey
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: ""
 github_username: kd35a
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"
 plugins:
   - jekyll-archives
   - jekyll-exif-data
@@ -54,7 +55,28 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+category_archive:
+  type: jekyll-archives
+  path: /category/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+
 jekyll-archives:
   enabled:
     - categories
-  layout: archive
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /category/:name/
+    tag: /tags/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      show_date: true

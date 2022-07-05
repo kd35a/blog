@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Photography birding - a beginning"
 tag: goals
 ---
