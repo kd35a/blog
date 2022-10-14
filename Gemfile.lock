@@ -108,8 +108,10 @@ GEM
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.8.0)
+    webrick (1.7.0)
 
 PLATFORMS
+  arm64-darwin-21
   x86_64-linux
 
 DEPENDENCIES
@@ -118,6 +120,7 @@ DEPENDENCIES
   jekyll-exif-data (~> 0.0)
   jekyll-feed (~> 0.12)
   minimal-mistakes-jekyll
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.2.15
