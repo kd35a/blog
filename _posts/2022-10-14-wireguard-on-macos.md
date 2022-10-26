@@ -1,7 +1,6 @@
 ---
 title: "Wireguard on macOS"
 tags: ["wireguard", "macos"]
-published: false
 ---
 I was first trying to use the GUI [Wireguard](https://www.wireguard.com/) client
 from [App Store](https://apps.apple.com/se/app/wireguard/id1451685025?l=en&mt=12),
