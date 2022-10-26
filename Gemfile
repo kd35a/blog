@@ -21,5 +21,3 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem 'jekyll-exif-data', '~> 0.0'
 end
-
-gem "webrick", "~> 1.7"
