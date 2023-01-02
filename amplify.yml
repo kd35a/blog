@@ -1,13 +1,18 @@
 version: 1
+env:
+  variables:
+    VERSION_RUBY: 3.1.3
 frontend:
   phases:
     preBuild:
       commands:
-        - rvm use $VERSION_RUBY_3_1
+        - rvm install $VERSION_RUBY
+        - rvm use $VERSION_RUBY
         - bundle install
     build:
       commands:
-        - rvm use $VERSION_RUBY_3_1
+        - rvm install $VERSION_RUBY
+        - rvm use $VERSION_RUBY
         - bundle exec jekyll b
   artifacts:
     baseDirectory: _site
