@@ -9,9 +9,8 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.2"
 
-# rouge 4.0 drops support for Ruby <2.7, which isn't pre-packaged on Amazon
-# Amplify build image.
-gem "rouge", "~> 3.0"
+# https://github.com/mmistakes/minimal-mistakes/issues/4054
+gem "jekyll-sass-converter", "~> 2.2"
 
 # Minimal Mistakes theme - https://mmistakes.github.io/minimal-mistakes/
 gem "minimal-mistakes-jekyll"

@@ -3,12 +3,13 @@ frontend:
   phases:
     preBuild:
       commands:
-        - rvm use $VERSION_RUBY_2_6
+        - rvm install ruby-3.2.2
+        - rvm use 3.2.2
         - gem install bundler
         - bundle install
     build:
       commands:
-        - rvm use $VERSION_RUBY_2_6
+        - rvm use 3.2.2
         - bundle exec jekyll b
   artifacts:
     baseDirectory: _site
