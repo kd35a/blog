@@ -3,13 +3,13 @@ frontend:
   phases:
     preBuild:
       commands:
-        - rvm install ruby-3.2.2
-        - rvm use 3.2.2
+        - rvm install ruby-3.3.6
+        - rvm use 3.3.6
         - gem install bundler
         - bundle install
     build:
       commands:
-        - rvm use 3.2.2
+        - rvm use 3.3.6
         - bundle exec jekyll b
   artifacts:
     baseDirectory: _site
