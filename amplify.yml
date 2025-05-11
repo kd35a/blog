@@ -3,6 +3,9 @@ frontend:
   phases:
     preBuild:
       commands:
+        - export LC_ALL="C.UTF-8"
+        - export LANG="en_US.UTF-8"
+        - export LANGUAGE="en_US.UTF-8"
         - rvm install ruby-3.3.6
         - rvm use 3.3.6
         - gem install bundler
@@ -10,7 +13,7 @@ frontend:
     build:
       commands:
         - rvm use 3.3.6
-        - bundle exec jekyll b
+        - bundle exec jekyll build
   artifacts:
     baseDirectory: _site
     files:
